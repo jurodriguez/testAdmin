@@ -1,0 +1,11 @@
+<div>
+  <button mat-raised-button color="primary" (click)="navigateToCreate()">
+    Crear Cliente
+  </button>
+</div>
+
+<app-table
+  [data]="customersData"
+  [columns]="columns"
+  (edit)="navigateToEdit($event)"
+></app-table>

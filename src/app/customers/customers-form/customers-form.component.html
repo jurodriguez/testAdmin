@@ -1,0 +1,24 @@
+<form [formGroup]="customerForm" (ngSubmit)="saveCustomer()" class="container">
+  <div>
+    <mat-form-field>
+      <mat-label>Nombre</mat-label>
+      <input matInput formControlName="nombre" />
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <mat-label>Correo</mat-label>
+      <input matInput formControlName="correo" />
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <mat-label>Fecha de Nacimiento</mat-label>
+      <input matInput formControlName="fechaNacimiento" type="date" />
+    </mat-form-field>
+  </div>
+  <button mat-raised-button color="primary" type="submit">Guardar</button>
+  <button mat-button (click)="back()">Atras</button>
+</form>

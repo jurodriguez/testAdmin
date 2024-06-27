@@ -1,0 +1,122 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "correo": "juan@gmail.com",
+      "fechaNacimiento": "1996-08-08"
+    },
+    {
+      "id": "2",
+      "nombre": "David2",
+      "correo": "david@gmail.com",
+      "fechaNacimiento": "1997-06-26"
+    },
+    {
+      "id": "3",
+      "nombre": "prueba3",
+      "correo": "prueba3@gmail.com",
+      "fechaNacimiento": "2009-12-12"
+    },
+    {
+      "id": "4",
+      "nombre": "prueba2",
+      "correo": "prueba2@as.cp",
+      "fechaNacimiento": "1999-12-21"
+    },
+    {
+      "id": "5",
+      "nombre": "luisa",
+      "correo": "luisa@gmail.com",
+      "fechaNacimiento": "2000-12-12"
+    },
+    {
+      "id": "6",
+      "nombre": "cata",
+      "correo": "cata@gmail.com",
+      "fechaNacimiento": "2000-12-12"
+    },
+    {
+      "id": "7",
+      "nombre": "prujd",
+      "correo": "prujd@gmail.com",
+      "fechaNacimiento": "2021-05-04"
+    },
+    {
+      "id": "8",
+      "nombre": "prulc",
+      "correo": "prulc@gmail.com",
+      "fechaNacimiento": "2011-11-11"
+    },
+    {
+      "id": "9",
+      "nombre": "jdavid2",
+      "correo": "jdavid2@gmail.com",
+      "fechaNacimiento": "2009-02-20"
+    },
+    {
+      "id": "10",
+      "nombre": "dj",
+      "correo": "dj@gmail.com",
+      "fechaNacimiento": "2006-07-07"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "bolsas",
+      "tipo": "aluminio",
+      "clienteId": "1",
+      "clienteNombre": "Juan"
+    },
+    {
+      "id": "2",
+      "nombre": "silla",
+      "tipo": "metalico",
+      "clienteId": "2",
+      "clienteNombre": "David"
+    },
+    {
+      "id": "3",
+      "nombre": "mesa",
+      "tipo": "metalico",
+      "clienteId": "6",
+      "clienteNombre": "cata"
+    },
+    {
+      "id": "4",
+      "nombre": "teclado",
+      "tipo": "plastico",
+      "clienteId": "7",
+      "clienteNombre": "prujd"
+    },
+    {
+      "id": "5",
+      "nombre": "horno",
+      "tipo": "aluminio",
+      "clienteId": "9",
+      "clienteNombre": "jdavid2"
+    },
+    {
+      "id": "6",
+      "nombre": "cuadro",
+      "tipo": "aluminio",
+      "clienteId": "3",
+      "clienteNombre": "prueba3"
+    },
+    {
+      "id": "7",
+      "nombre": "celular",
+      "tipo": "plastico",
+      "clienteId": "1",
+      "clienteNombre": "Juan"
+    },
+    {
+      "id": "8",
+      "nombre": "audifonos",
+      "tipo": "plastico",
+      "clienteId": "9",
+      "clienteNombre": "jdavid2"
+    }
+  ]
+}
